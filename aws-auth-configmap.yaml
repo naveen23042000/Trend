@@ -10,4 +10,8 @@ data:
       groups:
         - system:bootstrappers
         - system:nodes
+    - rolearn: arn:aws:iam::041124310096:role/Admin  # replace with your admin role if needed
+      username: admin
+      groups:
+        - system:masters
 
